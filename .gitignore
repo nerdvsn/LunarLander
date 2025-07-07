@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Jupyter Notebooks (optional)
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+.mrl/
+.mamba/
+
+# VSCode
+.vscode/
+
+# Modell-Dateien & Checkpoints
+*.zip
+*.ckpt
+*.h5
+*.pt
+*.pth
+models/
+checkpoints/
+
+# TensorBoard Logs
+logs/
+tb_logs/
+tensorboard/
+
+# Videos oder Render-Ausgaben
+*.mp4
+*.avi
+videos/
+recordings/
+
+# Daten (falls du z. B. simulierte Daten oder große Dateien speicherst)
+data/
+datasets/
+*.mat
+*.npy
+
+# Systemdateien
+.DS_Store
+Thumbs.db
